@@ -1,0 +1,29 @@
+<div>
+  <h2><%= @flat.name %></h2>
+  <h4><%= @flat.address %></h4>
+</div>
+
+<div>
+  <h3>A bit more about this flat</h3>
+  <%= @flat.description %>
+</div>
+
+<div>
+  <h3>Book this place!</h3>
+  <form action="">
+  <span>from:</span>
+  <input type="text">
+  <br>
+  <span>to:</span>
+  <input type="text">
+  <br>
+  <input type="submit" value="Book">
+  </form>
+</div>
+
+
+<div>
+  <h3>Details</h3>
+  <%= @flat.number_of_guests %>
+  <%= @flat.price_per_night %>
+</div>
